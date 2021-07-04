@@ -16,12 +16,20 @@ function Main() {
   );
 }
 
+function Footer() {
+  return(
+    <footer>
+      <p>It's true.</p>
+    </footer>
+  );
+}
+
 function App() {
   return (
     <div className="App">
       <Header />
       <Main />
-      <h3>Footer</h3>
+      <Footer />
     </div>
   );
 }
